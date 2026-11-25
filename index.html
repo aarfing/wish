@@ -3,10 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="color-scheme" content="light dark">
   <title>Ønsker fra Ella, Marius, Janne &amp; Christian</title>
   <style>
     @media only screen and (min-width:1px){
-      body{margin:20px;padding:0;font:normal 110%/normal 'helvetica neue',helvetica,verdana,arial;color:#333}
+      :root{
+        --bg: light-dark(#fff,#111);
+        --text: light-dark(#333,#ddd);
+        --link: light-dark(#52749c,#8ebef4);
+        --old: light-dark(#bbb,#999);
+      }
+      body{margin:20px;padding:0;font:normal 110%/normal 'helvetica neue',helvetica,verdana,arial;background:var(--bg);color:var(--text)}
       section{min-height:1px;overflow:hidden}
       h1{letter-spacing:1px;margin:0;font:normal 2.3em/normal georgia,serif;border-bottom:3px solid #5d84b2;clear:both}
       article{min-height:1px;overflow:hidden;box-sizing:border-box}
@@ -16,12 +23,12 @@
       footer{text-align:left;min-height:1px;overflow:hidden}
       footer a{display:none}
       footer em{font-size:12px}
-      a{color:#5d84b2}
+      a{color:var(--link)}
       a:hover{text-decoration:none}
-      .old a{color:#bbb}
+      .old a{color:var(--old)}
       .old li{color:#bbb;text-decoration:line-through;}
-      .old .new::after{background:#ccc;}
-      .new::after{content:"Nyt";display:inline-block;vertical-align:super;font-size:.6em;line-height:1em;padding:1px 3px;background:#5d84b2;color:#fff;margin:0 0 0 5px;text-transform:uppercase;border-radius:1px;}
+      .old .new::after{background:var(--old);}
+      .new::after{content:"Nyt";display:inline-block;vertical-align:super;font-size:.6em;line-height:1em;padding:1px 3px;background:#cc4242;color:#fff;margin:0 0 0 5px;text-transform:uppercase;border-radius:1px;}
     }
 
     @media only screen and (min-width:768px){
@@ -31,7 +38,7 @@
       article{width:50%;float:left;padding:0 1%}
       article:nth-of-type(3){clear:left}
       h2{font-size:2em}
-      footer{display:block;clear:both;border-top:3px solid #5d84b2;padding:10px 0px;text-align:right;font-size:.8em}
+      footer{display:block;clear:both;border-top:3px solid var(--link);padding:10px 0px;text-align:right;font-size:.8em}
       footer em{float:left}
       footer a{display:inline-block}
     }
@@ -88,7 +95,7 @@
     <h2>Marius</h2>
     <ul>
       <li>Manga, One Piece vol. 64-65-66 og op</li>
-      <li>Manga, JoJos Bizarre Adventure - Steel Ball Run del 8 og op</li>
+      <li>Manga, JoJos Bizarre Adventure - Steel Ball Run del 9 og op</li>
       <li>Hunterxhunter - bind 3 og op</li>
       <li><a href="https://www.bog-ide.dk/products/harry-potter-illustreret-6-harry-potter-og-halvblodsprinsen-j-k-rowling-indbundet-3481597">Harry potter og halvblodsprinsen: illustreret</a></li>
       <li><a href="https://www.bog-ide.dk/products/rovfugle-carl-christian-tofte-indbundet-3280116">Rovfugle - som jeg ser dem</a></li>
@@ -100,11 +107,11 @@
       <li><a href="https://www.bog-ide.dk/products/smaa-dyr-i-soe-og-aa-lars-henrik-olsen-indbundet-1638571">Små dyr i sø og å</a></li>
       <li><a href="https://www.faraos.dk/games/figurspil/warhammer40000/basisprodukter/startsaet/getting-started-with-space-marines-warhammer-40.000">Warhammer 40k: Getting started with space marines sæt</a></li>
       <li><a href="https://www.faraos.dk/games/figurspil/warhammer40000/spacemarines/hq/space-marine-primaris-chaplain-space-marines">Warhammer 40k: Space Marine Primaris Chaplain</a></li>
-      <li><a href="https://www.faraos.dk/games/figurspil/warhammer40000/basisprodukter/basisprodukter/40k-paints-tools-10th-edition-warhammer-40.000">Warhammer 40k:40k Paint & Tools</a></li>
+      <li><a href="https://www.faraos.dk/games/figurspil/warhammer40000/basisprodukter/basisprodukter/40k-paints-tools-10th-edition-warhammer-40.000">Warhammer 40k: 40k Paint &amp; Tools</a></li>
       <li>Robux</li>
       <li>Dagstur til Møns klint/Stevns klint (bare et af stederne)</li>
       <li>Lego Ringenes Herre: Barad-dûr</li>
-      <li>Lego The lord of the rings: The Shire</li>
+      <li>Lego Ringenes Herre: The Shire</li>
     </ul>
   </article>
 
@@ -115,31 +122,37 @@
       <li>Maren Uthaug - 1%</li>
       <li>Lena Dunham - famesick</li>
       <li>Antipast strømper</li>
-      <li>Maria la Rosa college socks
+      <li>Maria la Rosa college socks</li>
       <li>Christian la croix notesbøger</li>
       <li>Aesop reverence aromatique hand wash</li>
       <li>Chunky halskæder (bijouteri)</li>
       <li>Brugt Chanel taske flap bag</li>
-      <li><a href="https://www.ugg.com/eu/en/dk/classic-heritage-lace-up-boot/1180418.html?_gl=1*1oeq6uu*_up*MQ..*_ga*ODI2MTUwNTEwLjE3OTIxNzcyOTI.*_ga_PBX476TBP2*czE3OTIxNzcyOTEkbzEkZzAkdDE3OTIxNzcyOTEkajYwJGwwJGgyMDE3OTQ2NDg5&dwvar_1180418_color=CHE">Women's Classic Heritage Lace-Up Boot str. 37</a></li>
+      <li><a href="https://www.ugg.com/eu/en/dk/classic-heritage-lace-up-boot/1180418.html?_gl=1*1oeq6uu*_up*MQ..*_ga*ODI2MTUwNTEwLjE3OTIxNzcyOTI.*_ga_PBX476TBP2*czE3OTIxNzcyOTEkbzEkZzAkdDE3OTIxNzcyOTEkajYwJGwwJGgyMDE3OTQ2NDg5&amp;dwvar_1180418_color=CHE">Women's Classic Heritage Lace-Up Boot str. 36</a></li>
       <li><a href="https://eu.thefrankieshop.com/products/sorelle-sweatpants-grey ">Grå sweatpants i small</a></li>
       <li><a href="https://eu.thefrankieshop.com/products/bronte-cargo-pants-army-green">Bronte Cargo pants i small - Army green</a></li>
       <li><a href="https://eu.thefrankieshop.com/products/kat-soft-oversized-shirt-white">Kat Soft Oversized Shirt - white</a></li>
       <li><a href="https://eu.thefrankieshop.com/products/lou-oversized-tee-dress-heather-grey">Lou Oversized Tee dress - Heather grey</a></li>
-      <li><a href="https://www.arket.com/en-dk/product/alba-heavyweight-t-shirt-white-1283090001/">Arket heavy t-shirt i small</a></li>
+      <li><a href="https://www.arket.com/en-dk/product/alba-heavyweight-t-shirt-white-1283090001/">Arket heavy t-shirt i medium</a></li>
       <li><a href="https://www.outnorth.com/dk/varemaerker/shepherd-of-sweden/women-s-jessica-66790-FS342930">Shepherd of Sweden - str. 36</a></li>
-      <li><a href="https://boiistudios.com/vare/kitkat/?attribute_pa_color=gold&attribute_pa_size=one-size">Kitkat Gold</a></li>
+      <li><a href="https://boiistudios.com/vare/kitkat/?attribute_pa_color=gold&amp;attribute_pa_size=one-size">Kitkat Gold</a></li>
       <li>Leleah øreringe - fås hos Another Nue</li>
+      <li><a href="https://www.stories.com/en-dk/product/chunky-leather-loafers-black-1337230001/">Chunky Leather Loafers i str. 36</a></li>
     </ul>
   </article>
 
   <article> <!-- add class="old" to dim out -->
     <h2>Christian</h2>
     <ul>
-      <li>N/A</li>
-      <!--<li><a href="https://www.uniqlo.com/dk/en/products/E422992-000/01?colorDisplayCode=00&sizeDisplayCode=006">Hvide t-shirts fra Uniqlo i str. XL</a></li>
-      <li><a href="https://www.uniqlo.com/dk/en/products/E471808-000/00?colorDisplayCode=50&sizeDisplayCode=004">Lysegrøn hættetrøje fra Uniqlo i str. XL</li>
+      <li><a href="https://www.apple.com/dk/shop/buy-tv/apple-tv-4k">Apple TV 4K (4. gen)</a></li>
+      <li><a href="https://www.uniqlo.com/dk/en/products/E422992-000/01?colorDisplayCode=00&amp;sizeDisplayCode=006">Hvide t-shirts i str. XL</a></li>
+      <li><a href="https://www.uniqlo.com/dk/en/products/E471808-000/00?colorDisplayCode=50&amp;sizeDisplayCode=004">Lysegrøn hættetrøje i str. XL</a></li>
+      <li><a href="https://www.uniqlo.com/dk/en/products/E485735-000/00?colorDisplayCode=03&amp;sizeDisplayCode=006">Grå hættetrøje med lynlås i str. XL</a></li>
       <li><a href="https://www.magasin.dk/hr-trunk-morley-4/S09777414.html">Hvide Hr trunk Morley 4 i str. XL</a></li>
-      <li><a href="https://www.pricerunner.dk/pl/744-3451912245/NAS-servere/Ubiquiti-UniFi-UNAS-4-NAS-Series-Sammenlign-Priser">Unas 4</a></li>-->
+      <li><a href="https://www.pricerunner.dk/pl/744-3451912245/NAS-servere/Ubiquiti-UniFi-UNAS-4-NAS-Series-Sammenlign-Priser">Unas 4 i hvid</a></li>
+      <li><a href="https://www.pricerunner.dk/pl/36-3402765756/Harddiske/Western-Digital-Red-Plus-Internal-NAS-HDD-3.5-12TB-Sammenlign-Priser">2 x WD Red Plus Internal NAS HDD 12TB</a></li>
+      <li><a href="https://www.footstore.dk/vare/17231-hush-puppies-hush-puppies-mens-manuel-black-hpb60037">Hush puppies str. 42</a></li>
+      <li><a href="https://raspberrypi.dk/produkt/home-assistant-green/">Home Assistant Green</a></li>
+      <li><a href="https://nomadgoods.com/dk/products/traditional-leather-case-rustic-brown-horween-iphone-18-pro">Nomad Traditional Horween Leather Case til iPhone 18 Pro i Rustic Brown</a></li>
     </ul>
   </article>
 
